@@ -25,9 +25,21 @@
     return sharedString;
 }
 
+- (NSString *)getDocumentDirectory {
+    NSArray *arrayPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *docDir = [arrayPaths objectAtIndex:0];
+    return docDir;
+}
+
+- (NSString *)getHomeDirectory {
+    NSString *homeDir = NSHomeDirectory();
+    return homeDir;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@",[self getDocumentDirectory]);
+    NSLog(@"%@",[self getHomeDirectory]);
 }
 
 - (void)didReceiveMemoryWarning {

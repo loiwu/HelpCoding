@@ -418,6 +418,7 @@
 				EE8AB89E1AEF7F0800A2D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE8AB89F1AEF7F0800A2D67A /* Build configuration list for PBXNativeTarget "HelperCodingTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				EE8AB8A11AEF7F0800A2D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
