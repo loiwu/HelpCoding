@@ -26,6 +26,7 @@
 }
 
 - (NSString *)getDocumentDirectory {
+    NSLog(@"%s",__FUNCTION__);
     NSArray *arrayPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *docDir = [arrayPaths objectAtIndex:0];
     return docDir;
