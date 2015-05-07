@@ -37,10 +37,63 @@
     return homeDir;
 }
 
+- (NSString *)randomName
+{
+    int NUMBER_OF_CHARS = arc4random_uniform(4)+5;
+    NSLog(@"%d",NUMBER_OF_CHARS);
+    
+    NSMutableString *randomData = [[NSMutableString alloc] init];
+    
+    int data=0;
+    for (int i=0; i<NUMBER_OF_CHARS; i++) {
+        int index = arc4random_uniform(3);
+        switch (index) {
+            case 0:
+                data=arc4random_uniform(10);
+                [randomData appendString:[NSString stringWithFormat:@"%d", data]];
+                break;
+            case 1:
+                data=arc4random_uniform(26)+65;
+                [randomData appendString:[NSString stringWithFormat:@"%c", data]];
+                break;
+            case 2:
+                data=arc4random_uniform(26)+97;
+                [randomData appendString:[NSString stringWithFormat:@"%c", data]];
+                break;
+            default:
+                break;
+        }
+    }
+    return randomData;
+}
+
+
+- (NSString *)randomString
+{
+    srand((unsigned int) time(NULL));
+    int NUMBER_OF_CHARS = rand()%4+5;
+    NSLog(@"%d",NUMBER_OF_CHARS);
+    char data[NUMBER_OF_CHARS];
+    for (int x=0;x<NUMBER_OF_CHARS;data[x++] = (char)('a' + (arc4random_uniform(26))));
+    NSMutableString *randomName = [[NSMutableString alloc] initWithBytes:data length:NUMBER_OF_CHARS encoding:NSUTF8StringEncoding];
+    
+    
+    int randomNumber = 0 + arc4random_uniform(9);
+    NSLog(@"%d",randomNumber);
+    NSString *randomNumberS = [NSString stringWithFormat:@"%d",randomNumber];
+    
+    int randomPosition = 0 + arc4random_uniform(randomNumber);
+    NSLog(@"%d",randomPosition);
+    [randomName insertString:randomNumberS atIndex:randomPosition];
+    
+    return randomName;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"%@",[self getDocumentDirectory]);
     NSLog(@"%@",[self getHomeDirectory]);
+    NSLog(@"%@",[self randomName]);
 }
 
 - (void)didReceiveMemoryWarning {
