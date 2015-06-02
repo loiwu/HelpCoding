@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let product = products[indexPath.row];
         let cell = tableView.dequeueReusableCellWithIdentifier("ProductCell")
-        as ProductTableCell;
+        as! ProductTableCell;
         cell.productId = indexPath.row;
         cell.nameLabel.text = product.0;
         cell.descriptionLabel.text = product.1;
@@ -61,14 +61,14 @@ class ViewController: UIViewController, UITableViewDataSource {
             while (true) {
                 currentCell = currentCell.superview!;
                 if let cell = currentCell as? ProductTableCell {
-                    if let id = cell.productId? {
+                    if let id = cell.productId {
                     
                         var newStockLevel:Int?;
                         
                         if let stepper = sender as? UIStepper {
                             newStockLevel = Int(stepper.value);
                         } else if let textfield = sender as? UITextField {
-                            if let newValue = textfield.text.toInt()? {
+                            if let newValue = textfield.text.toInt() {
                                 newStockLevel = newValue;
                             }
                         }
@@ -88,7 +88,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func displayStockTotal() {
         let stockTotal = products.reduce(0,
-        {(total, product) -> Int in return total + product.4});
+        combine: {(total, product) -> Int in return total + product.4});
         totalStockLabel.text = "\(stockTotal) Products in Stock";
     }
 }
