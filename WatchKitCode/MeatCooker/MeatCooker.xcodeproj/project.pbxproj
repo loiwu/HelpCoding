@@ -641,6 +641,7 @@
 				A06A8F541B1EF2DC0035A4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06A8F551B1EF2DC0035A4DF /* Build configuration list for PBXNativeTarget "MeatCookerTests" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +650,7 @@
 				A06A8F571B1EF2DC0035A4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06A8F751B1EF3000035A4DF /* Build configuration list for PBXNativeTarget "MeatCooker WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +659,7 @@
 				A06A8F771B1EF3000035A4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06A8F781B1EF3000035A4DF /* Build configuration list for PBXNativeTarget "MeatCooker WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +668,7 @@
 				A06A8F7A1B1EF3000035A4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,10 +16,17 @@
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                     <calendarUnit key="units" minute="YES" second="YES"/>
                                 </timer>
-                                <button width="1" alignment="left" title="Start Timer" id="aXM-75-SDh"/>
+                                <button width="1" alignment="left" title="Start Timer" id="aXM-75-SDh">
+                                    <connections>
+                                        <action selector="onTimerButton" destination="AgC-eL-Hgc" id="9WC-iJ-Cw5"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="timer" destination="pd1-kN-YAf" id="haq-xX-M2X"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>52C18DF8-B6FD-413E-A69C-8B1A37E2AA3A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MeatCooker</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9B2227106473749FFD20A3540D5BF29DB329686F</key>
 		<string>https://github.com/loiwu/HelpCoding.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WatchKitCode/MeatCooker/MeatCooker.xcodeproj/project.xcworkspace</string>
+	<string>WatchKitCode/MeatCooker/MeatCooker.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9B2227106473749FFD20A3540D5BF29DB329686F</key>
