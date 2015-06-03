@@ -23,6 +23,7 @@
                                 </button>
                             </items>
                         </group>
+                        <label alignment="center" text="Weight: 16 oz" id="UTo-BU-FGZ"/>
                     </items>
                     <connections>
                         <outlet property="timer" destination="pd1-kN-YAf" id="haq-xX-M2X"/>
