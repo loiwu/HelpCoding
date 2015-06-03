@@ -8,7 +8,19 @@
         <!--Meat Cook-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="InitialController" title="Meat Cook" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MeatCooker_WatchKit_App" customModuleProvider="target"/>
+                <controller identifier="InitialController" title="Meat Cook" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MeatCooker_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="IDO-qU-rS7">
+                            <items>
+                                <timer alignment="center" textAlignment="center" id="pd1-kN-YAf">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                    <calendarUnit key="units" minute="YES" second="YES"/>
+                                </timer>
+                                <button width="1" alignment="left" title="Start Timer" id="aXM-75-SDh"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>
