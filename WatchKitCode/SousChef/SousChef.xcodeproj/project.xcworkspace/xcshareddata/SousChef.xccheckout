@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CA0D10C8-1F75-4B31-9511-AA932BAC48EE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SousChef</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9B2227106473749FFD20A3540D5BF29DB329686F</key>
 		<string>https://github.com/loiwu/HelpCoding.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WatchKitCode/SousChef/SousChef.xcodeproj/project.xcworkspace</string>
+	<string>WatchKitCode/SousChef/SousChef.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9B2227106473749FFD20A3540D5BF29DB329686F</key>

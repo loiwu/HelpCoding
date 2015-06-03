@@ -14,6 +14,12 @@
 		A06A8F941B1F07C60035A4DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06A8F931B1F07C60035A4DF /* Images.xcassets */; };
 		A06A8F971B1F07C60035A4DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06A8F951B1F07C60035A4DF /* LaunchScreen.xib */; };
 		A06A8FA31B1F07C60035A4DF /* SousChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A8FA21B1F07C60035A4DF /* SousChefTests.swift */; };
+		A0EEA6E71B1F0D7C00AAEBA6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EEA6E61B1F0D7C00AAEBA6 /* InterfaceController.swift */; };
+		A0EEA6E91B1F0D7C00AAEBA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EEA6E81B1F0D7C00AAEBA6 /* Images.xcassets */; };
+		A0EEA6ED1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A0EEA6EC1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app */; };
+		A0EEA6F51B1F0D7C00AAEBA6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EEA6F31B1F0D7C00AAEBA6 /* Interface.storyboard */; };
+		A0EEA6F71B1F0D7C00AAEBA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EEA6F61B1F0D7C00AAEBA6 /* Images.xcassets */; };
+		A0EEA6FA1B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0EEA6E21B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,35 @@
 			remoteGlobalIDString = A06A8F841B1F07C60035A4DF;
 			remoteInfo = SousChef;
 		};
+		A0EEA6EE1B1F0D7C00AAEBA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A06A8F7D1B1F07C60035A4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0EEA6EB1B1F0D7C00AAEBA6;
+			remoteInfo = "SousChef WatchKit App";
+		};
+		A0EEA6F81B1F0D7C00AAEBA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A06A8F7D1B1F07C60035A4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0EEA6E11B1F0D7C00AAEBA6;
+			remoteInfo = "SousChef WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0EEA7011B1F0D7C00AAEBA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0EEA6FA1B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A06A8F851B1F07C60035A4DF /* SousChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SousChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +72,14 @@
 		A06A8F9C1B1F07C60035A4DF /* SousChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SousChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06A8FA11B1F07C60035A4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06A8FA21B1F07C60035A4DF /* SousChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousChefTests.swift; sourceTree = "<group>"; };
+		A0EEA6E21B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SousChef WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EEA6E51B1F0D7C00AAEBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EEA6E61B1F0D7C00AAEBA6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A0EEA6E81B1F0D7C00AAEBA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0EEA6EC1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SousChef WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0EEA6F21B1F0D7C00AAEBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EEA6F41B1F0D7C00AAEBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A0EEA6F61B1F0D7C00AAEBA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0EEA6DF1B1F0D7C00AAEBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +112,8 @@
 			children = (
 				A06A8F871B1F07C60035A4DF /* SousChef */,
 				A06A8F9F1B1F07C60035A4DF /* SousChefTests */,
+				A0EEA6E31B1F0D7C00AAEBA6 /* SousChef WatchKit Extension */,
+				A0EEA6F01B1F0D7C00AAEBA6 /* SousChef WatchKit App */,
 				A06A8F861B1F07C60035A4DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +123,8 @@
 			children = (
 				A06A8F851B1F07C60035A4DF /* SousChef.app */,
 				A06A8F9C1B1F07C60035A4DF /* SousChefTests.xctest */,
+				A0EEA6E21B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex */,
+				A0EEA6EC1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +168,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A0EEA6E31B1F0D7C00AAEBA6 /* SousChef WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEA6E61B1F0D7C00AAEBA6 /* InterfaceController.swift */,
+				A0EEA6E81B1F0D7C00AAEBA6 /* Images.xcassets */,
+				A0EEA6E41B1F0D7C00AAEBA6 /* Supporting Files */,
+			);
+			path = "SousChef WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A0EEA6E41B1F0D7C00AAEBA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEA6E51B1F0D7C00AAEBA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0EEA6F01B1F0D7C00AAEBA6 /* SousChef WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEA6F31B1F0D7C00AAEBA6 /* Interface.storyboard */,
+				A0EEA6F61B1F0D7C00AAEBA6 /* Images.xcassets */,
+				A0EEA6F11B1F0D7C00AAEBA6 /* Supporting Files */,
+			);
+			path = "SousChef WatchKit App";
+			sourceTree = "<group>";
+		};
+		A0EEA6F11B1F0D7C00AAEBA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEA6F21B1F0D7C00AAEBA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +214,12 @@
 				A06A8F811B1F07C60035A4DF /* Sources */,
 				A06A8F821B1F07C60035A4DF /* Frameworks */,
 				A06A8F831B1F07C60035A4DF /* Resources */,
+				A0EEA7011B1F0D7C00AAEBA6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0EEA6F91B1F0D7C00AAEBA6 /* PBXTargetDependency */,
 			);
 			name = SousChef;
 			productName = SousChef;
@@ -153,6 +244,39 @@
 			productReference = A06A8F9C1B1F07C60035A4DF /* SousChefTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A0EEA6E11B1F0D7C00AAEBA6 /* SousChef WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EEA7001B1F0D7C00AAEBA6 /* Build configuration list for PBXNativeTarget "SousChef WatchKit Extension" */;
+			buildPhases = (
+				A0EEA6DE1B1F0D7C00AAEBA6 /* Sources */,
+				A0EEA6DF1B1F0D7C00AAEBA6 /* Frameworks */,
+				A0EEA6E01B1F0D7C00AAEBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0EEA6EF1B1F0D7C00AAEBA6 /* PBXTargetDependency */,
+			);
+			name = "SousChef WatchKit Extension";
+			productName = "SousChef WatchKit Extension";
+			productReference = A0EEA6E21B1F0D7C00AAEBA6 /* SousChef WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A0EEA6EB1B1F0D7C00AAEBA6 /* SousChef WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0EEA6FF1B1F0D7C00AAEBA6 /* Build configuration list for PBXNativeTarget "SousChef WatchKit App" */;
+			buildPhases = (
+				A0EEA6EA1B1F0D7C00AAEBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SousChef WatchKit App";
+			productName = "SousChef WatchKit App";
+			productReference = A0EEA6EC1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +292,12 @@
 					A06A8F9B1B1F07C60035A4DF = {
 						CreatedOnToolsVersion = 6.3.2;
 						TestTargetID = A06A8F841B1F07C60035A4DF;
+					};
+					A0EEA6E11B1F0D7C00AAEBA6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A0EEA6EB1B1F0D7C00AAEBA6 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -186,6 +316,8 @@
 			targets = (
 				A06A8F841B1F07C60035A4DF /* SousChef */,
 				A06A8F9B1B1F07C60035A4DF /* SousChefTests */,
+				A0EEA6E11B1F0D7C00AAEBA6 /* SousChef WatchKit Extension */,
+				A0EEA6EB1B1F0D7C00AAEBA6 /* SousChef WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +337,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EEA6E01B1F0D7C00AAEBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EEA6ED1B1F0D7C00AAEBA6 /* SousChef WatchKit App.app in Resources */,
+				A0EEA6E91B1F0D7C00AAEBA6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EEA6EA1B1F0D7C00AAEBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EEA6F51B1F0D7C00AAEBA6 /* Interface.storyboard in Resources */,
+				A0EEA6F71B1F0D7C00AAEBA6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +379,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0EEA6DE1B1F0D7C00AAEBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EEA6E71B1F0D7C00AAEBA6 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = A06A8F841B1F07C60035A4DF /* SousChef */;
 			targetProxy = A06A8F9D1B1F07C60035A4DF /* PBXContainerItemProxy */;
+		};
+		A0EEA6EF1B1F0D7C00AAEBA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0EEA6EB1B1F0D7C00AAEBA6 /* SousChef WatchKit App */;
+			targetProxy = A0EEA6EE1B1F0D7C00AAEBA6 /* PBXContainerItemProxy */;
+		};
+		A0EEA6F91B1F0D7C00AAEBA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0EEA6E11B1F0D7C00AAEBA6 /* SousChef WatchKit Extension */;
+			targetProxy = A0EEA6F81B1F0D7C00AAEBA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +422,14 @@
 				A06A8F961B1F07C60035A4DF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A0EEA6F31B1F0D7C00AAEBA6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0EEA6F41B1F0D7C00AAEBA6 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,6 +570,62 @@
 			};
 			name = Release;
 		};
+		A0EEA6FB1B1F0D7C00AAEBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SousChef WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0EEA6FC1B1F0D7C00AAEBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SousChef WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0EEA6FD1B1F0D7C00AAEBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SousChef_WatchKit_Extension;
+				INFOPLIST_FILE = "SousChef WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A0EEA6FE1B1F0D7C00AAEBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SousChef_WatchKit_Extension;
+				INFOPLIST_FILE = "SousChef WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,12 +645,30 @@
 				A06A8FA81B1F07C60035A4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A06A8FA91B1F07C60035A4DF /* Build configuration list for PBXNativeTarget "SousChefTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A06A8FAA1B1F07C60035A4DF /* Debug */,
 				A06A8FAB1B1F07C60035A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0EEA6FF1B1F0D7C00AAEBA6 /* Build configuration list for PBXNativeTarget "SousChef WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EEA6FD1B1F0D7C00AAEBA6 /* Debug */,
+				A0EEA6FE1B1F0D7C00AAEBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0EEA7001B1F0D7C00AAEBA6 /* Build configuration list for PBXNativeTarget "SousChef WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EEA6FB1B1F0D7C00AAEBA6 /* Debug */,
+				A0EEA6FC1B1F0D7C00AAEBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
