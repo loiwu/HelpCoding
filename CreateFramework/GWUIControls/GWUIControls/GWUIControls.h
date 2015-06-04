@@ -6,8 +6,4 @@
 //  Copyright (c) 2015 Loi Wu. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface GWUIControls : NSObject
-
-@end
+#import <UIKit/UIKit.h>

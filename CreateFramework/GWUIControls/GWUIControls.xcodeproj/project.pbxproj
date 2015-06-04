@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A060FC261B2017F30072C9B8 /* GWUIControls.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A060FC251B2017F30072C9B8 /* GWUIControls.h */; };
-		A060FC281B2017F30072C9B8 /* GWUIControls.m in Sources */ = {isa = PBXBuildFile; fileRef = A060FC271B2017F30072C9B8 /* GWUIControls.m */; };
 		A060FC2E1B2017F30072C9B8 /* libGWUIControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A060FC221B2017F30072C9B8 /* libGWUIControls.a */; };
+		A060FC3F1B201AA30072C9B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A060FC3C1B201A5A0072C9B8 /* UIKit.framework */; };
+		A060FC411B201ADA0072C9B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A060FC401B201ADA0072C9B8 /* Foundation.framework */; };
+		A060FC431B201B800072C9B8 /* GWUIControls.h in Resources */ = {isa = PBXBuildFile; fileRef = A060FC251B2017F30072C9B8 /* GWUIControls.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,10 @@
 /* Begin PBXFileReference section */
 		A060FC221B2017F30072C9B8 /* libGWUIControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGWUIControls.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A060FC251B2017F30072C9B8 /* GWUIControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWUIControls.h; sourceTree = "<group>"; };
-		A060FC271B2017F30072C9B8 /* GWUIControls.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWUIControls.m; sourceTree = "<group>"; };
 		A060FC2D1B2017F30072C9B8 /* GWUIControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWUIControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A060FC331B2017F30072C9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A060FC3C1B201A5A0072C9B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A060FC401B201ADA0072C9B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A060FC411B201ADA0072C9B8 /* Foundation.framework in Frameworks */,
+				A060FC3F1B201AA30072C9B8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 		A060FC191B2017F30072C9B8 = {
 			isa = PBXGroup;
 			children = (
+				A060FC3E1B201A860072C9B8 /* Frameworks */,
 				A060FC241B2017F30072C9B8 /* GWUIControls */,
 				A060FC311B2017F30072C9B8 /* GWUIControlsTests */,
 				A060FC231B2017F30072C9B8 /* Products */,
@@ -84,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				A060FC251B2017F30072C9B8 /* GWUIControls.h */,
-				A060FC271B2017F30072C9B8 /* GWUIControls.m */,
 			);
 			path = GWUIControls;
 			sourceTree = "<group>";
@@ -105,6 +110,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A060FC3E1B201A860072C9B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A060FC401B201ADA0072C9B8 /* Foundation.framework */,
+				A060FC3C1B201A5A0072C9B8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +129,7 @@
 				A060FC1E1B2017F30072C9B8 /* Sources */,
 				A060FC1F1B2017F30072C9B8 /* Frameworks */,
 				A060FC201B2017F30072C9B8 /* CopyFiles */,
+				A060FC421B201B260072C9B8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -186,6 +201,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A060FC421B201B260072C9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A060FC431B201B800072C9B8 /* GWUIControls.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -193,7 +216,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A060FC281B2017F30072C9B8 /* GWUIControls.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
