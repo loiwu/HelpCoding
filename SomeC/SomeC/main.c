@@ -31,6 +31,7 @@ void doSomeThing (int type) {
     } else {
         func = printGoodbye;
     }
+    func();
 }
 
 int main(int argc, const char * argv[]) {
