@@ -8,8 +8,25 @@
 
 #include <stdio.h>
 
+void printHello () {
+    printf("Hello, World!");
+}
+
+void printGoodbye () {
+    printf("Goodbye, World!");
+}
+
+void doTheThing (int type) {
+    if (type == 0) {
+        printHello();
+    } else {
+        printGoodbye();
+    }
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    doTheThing (0);
+    
     return 0;
 }
