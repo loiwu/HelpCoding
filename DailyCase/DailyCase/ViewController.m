@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%@",[[NSBundle mainBundle]infoDictionary]);
+    NSLog(@"NSBundle -  %@",[NSBundle mainBundle]);
+    NSLog(@"NSHomeDirectory - %@",NSHomeDirectory());
 }
 
 - (void)didReceiveMemoryWarning {
